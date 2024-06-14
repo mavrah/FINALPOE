@@ -23,7 +23,9 @@
 
 6. **Debug and Troubleshoot**:
    - If you encounter any issues or errors during the compilation or runtime, you can use the Visual Studio debugger to step through the code and identify the problem.
+
 https://github.com/mavrah/FINALPOE
+  
   1.c=Based on the feedback from my lecturer, I made the following changes to the WPF project:
 
 The main issue identified was that the `InitializeComponent()` method was not being called correctly, which was causing the error. To address this, I modified the `MainWindow` constructor to manually initialize the UI elements instead of relying solely on the automatically generated `InitializeComponent()` method.
